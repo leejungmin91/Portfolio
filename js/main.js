@@ -20,7 +20,7 @@ const mobileContact = body.querySelector('.mobile-header > .m-gnb-menu > ul > .c
 let timer; 
 let loadingTimer;
 
-let typingTxt = 'text';
+let typingTxt = '제 스킬을 소개합니다';
 typingTxt = typingTxt.split('');
 
 let index = 0;
@@ -61,7 +61,7 @@ function typingEffect(){
         typing.innerHTML += typingTxt[index];
         index++;
 
-        timer = setTimeout(typingEffect,150); // �쇱젙媛꾧꺽�쇰줈 ���댄븨�④낵 �몄텧
+        timer = setTimeout(typingEffect,150);
     } else {
         typingIcon.classList.add('on');
         
@@ -92,7 +92,7 @@ for(let i = 0; i < gnbList.length - 1; i++){
 
         if( sectionElms[i].classList.contains('skills') ) {   
             body.classList.add('black'); 
-            setTimeout(typingEffect,500); //���댄븨�④낵 �몄텧
+            setTimeout(typingEffect,500); 
         }
 
 
@@ -102,7 +102,7 @@ for(let i = 0; i < gnbList.length - 1; i++){
             subGnbRemove();
 
             // gnb 
-            contactBtn.style.display = 'none';
+            //contactBtn.style.display = 'none';
             subList.style.display = 'block';
 
             if( liElm.classList.contains('js') ) {
@@ -120,7 +120,7 @@ for(let i = 0; i < gnbList.length - 1; i++){
 
         } else {
             // gnb
-            contactBtn.style.display = 'block';
+            //contactBtn.style.display = 'block';
             subList.style.display = 'none';
             sectionElms[i].classList.add('active');
         }

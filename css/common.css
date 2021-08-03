@@ -685,12 +685,16 @@ main > .section-wrap > .skills > .inner > .skills-list > li > .skills-more > li 
 }
 
 .portfolio > .inner > .portfolio-contents > .moneyboo > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/moneyboo002.png);
+    background-image: url(../images/myaudiworld.png);
+	background-position: center top;
+}
 
+.portfolio > .inner > .portfolio-contents > .moneyboo > .img-area:hover > .pf-link > .pf-img {
+    background-position:center bottom
 }
 
 .portfolio > .inner > .portfolio-contents > .movieApp > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/portfoliolist-img-movieApp.png);
+    background-image: url(../images/kmc.png);
     background-position: center top;
 }
 
@@ -699,20 +703,17 @@ main > .section-wrap > .skills > .inner > .skills-list > li > .skills-more > li 
 }
 
 .portfolio > .inner > .portfolio-contents > .hackernews > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/portfoliolist-img-hackerNews.png);
-    /* background-size:100% 100%; */
-}
-
-.portfolio > .inner > .portfolio-contents > .todolist-js > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/portfoliolist-img-todolist-js.png);
+    background-image: url(../images/bonif.png);
+    background-size:90% 90%;
 }
 
 .portfolio > .inner > .portfolio-contents > .todolist-vue > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/portfoliolist-img-todolist-vue.png);
+    background-image: url(../images/ahc.png);
+    background-size:90% 90%;
 }
 
 .portfolio > .inner > .portfolio-contents > .weather > .img-area > .pf-link > .pf-img {
-    background-image: url(../images/portfoliolist-img-globalWeather01.png);
+    background-image: url(../images/ahc.png);
     transition: 0.3s ease;
     background-position-y:-5px;
 }
