@@ -366,13 +366,15 @@ main > .section-wrap > .intro > .inner {
     min-height: 580px;
 }
 
+/* 20210805//(Ina)수정(s) */
 main > .section-wrap > .intro > .inner > .main-logo-box {
     position: absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     border: 10px solid #000098;
-    padding:1.5% 3%;
+    /* padding:1.5% 3%; */
+    padding:2.8% 3%;
     border-radius:10px;
     background-color: #ffeb33;
     box-shadow: 8px 8px 8px 8px #61616140;
@@ -381,16 +383,21 @@ main > .section-wrap > .intro > .inner > .main-logo-box {
     min-width: 500px;
     max-width: 500px;
 }
+/* 20210805//(Ina)수정(e) */
 
 main > .section-wrap > .intro > .inner > .main-logo-box > h1 {
     text-shadow: 5px 5px 5px #8c8c8c;
     text-align: center;
 }
 
+/* 20210805//(Ina)수정(s) */
 main > .section-wrap > .intro > .inner > .main-logo-box > h1 > span {
-    font-size: 10em;
+    display: block;
+    font-size: 9em;
     color: #000098;
+    line-height: 1.2;
 }
+/* 20210805//(Ina)수정(e) */
 
 main > .section-wrap > .intro > .inner > .main-logo-box > h1 > .folio {
     letter-spacing:7px;
@@ -410,22 +417,39 @@ main > .section-wrap > .intro > .inner > .main-logo-box > h1 > .logo-icon {
     margin-left: -10px;
 }
 
+/* 20210805//(Ina)수정(s) */
 main > .section-wrap > .intro > .inner > .main-logo-box > .logo-txt {
     font-size: 2em;
     color: #000098;
     position: absolute;
 }
-
-main > .section-wrap > .intro > .inner > .main-logo-box > strong {
+main > .section-wrap > .intro > .inner > .main-logo-box > strong.logo-txt {
     top: -48px;
     right: 0;
 }
+main > .section-wrap > .intro > .inner > .main-logo-box > p.logo-txt {
+    transform: rotateZ(270deg);
+    left: -166px;
+    bottom: 117px;    
+}
 
+main > .section-wrap > .intro > .inner > .main-logo-box > .logo-dsc {
+    display: block;
+    margin-top: 3%;
+    font-size: 1rem;
+    text-align: center;
+}
+/* 20210805//(Ina)수정(e) */
+
+
+
+/*
 main > .section-wrap > .intro > .inner > .main-logo-box > p {
     transform: rotateZ(270deg);
     left: -166px;
     bottom: 117px;
 }
+*/
 
 
 

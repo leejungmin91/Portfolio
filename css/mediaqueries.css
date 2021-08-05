@@ -338,18 +338,24 @@
         margin-top: 0;
     }
 
+    /* 20210805//(Ina)수정(s) */
     main > .section-wrap > .intro > .inner > .main-logo-box {
         min-width: 260px;
-        padding: 4% 0;
+        /* padding: 4% 0; */
+        padding:4%;
     }
+    /* 20210805//(Ina)수정(e) */
 
     main > .section-wrap > .intro > .inner > .main-logo-box > h1 > span {
         font-size: 5em;
     }
 
-    main > .section-wrap > .intro > .inner > .main-logo-box > .logo-txt {
+    /* 20210805//(Ina)수정(s) */
+    main > .section-wrap > .intro > .inner > .main-logo-box > .logo-txt,
+    main > .section-wrap > .intro > .inner > .main-logo-box > .logo-dsc {
         font-size: 0.8em;
     }
+     /* 20210805//(Ina)수정(e) */
 
     main > .section-wrap > .intro > .inner > .main-logo-box > strong {
         top:-31px
